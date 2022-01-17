@@ -1,0 +1,144 @@
+/*------------------------------------- 
+            Common Styles
+ ---------------------------------------*/
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ body{
+    font-family: 'Outfit', sans-serif;
+ }
+ a{
+     text-decoration: none;
+ }
+ li{
+     list-style-type: none;
+ }
+ .highlight{
+     color: #5a06e0;
+ }
+ .link-button{
+     color: white;
+     background-color: rgb(236, 49, 90);
+     margin-top: 2%;
+     padding: 10px 20px;
+     border-radius: 5px;
+     display: block;
+     text-align: center;
+ }
+ /* ----------------------------------
+                Navigation
+  --------------------------------------*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    padding: 30px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+.logo-title a{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(31, 28, 28);
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    color: rgba(0, 0, 0, 0.835);
+    margin: 20px;
+    font-size: 18px;
+    font-weight: thin;
+}
+
+/* section */
+.container{
+    width: 970px;
+    padding-bottom: 10%;
+    margin: 0 auto;
+}
+.top-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 10%;
+    height: calc(100vh - 80px);
+}
+.left-side img{
+    width: 100%;
+}
+.right-side h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(236, 49, 90);
+}
+.right-side h4{
+    font-size: 20px;
+}
+.right-side p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.suggestion-img img{
+    width: 100%;
+}
+.mid-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 15%;
+    align-items: center;
+}
+.suggestion-contents h1{
+    color: rgb(236, 49, 90);
+    font-size: 40px;
+}
+.suggestion-contents p{
+    margin: 10px 0;
+    line-height: 30px;
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* Notes section */
+.section-title{
+    color: rgb(236, 49, 90);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.notes-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+.all-notes{
+    padding: 15px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.all-notes img{
+    width: 100%;
+}
+.all-notes h2{
+    margin-top: 10px;
+}
+.all-notes p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#download-btn{
+    color: white;
+    background-color: rgb(54, 54, 236);
+    padding: 10px;
+    border-radius: 5px;
+}
